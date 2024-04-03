@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="range"],
+input[type="color"] {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-right button {
+  border: none;
+  outline: none;
+  background-color: #f7821b;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.codes .controls-box {
+  margin-top: 1em;
+}
+.codes .code {
+  color: orange;
+}
